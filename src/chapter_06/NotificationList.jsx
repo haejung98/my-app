@@ -62,4 +62,19 @@ class NotificationList extends React.Component {
   }
 }
 
+
+function Counter(props) {
+  // 변수 각각에 대해 set함수가 따로 존재
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>총 {count}번 클릭했습니다.</p>
+      <button oncClick={(() => setCount(count + 1))}>
+        클릭
+      </button>
+    </div>
+  );
+}
+
 export default NotificationList;
