@@ -9,11 +9,12 @@ import Clock from './chapter_04/Clock';
 import CommentList from './chapter_05/CommentList';
 import NotificationList from './chapter_06/NotificationList';
 import Accommodate from './chapter_07/Accommodate';
+import LandingPage from './chapter_09/LandingPage';
 
 setInterval(() => {
   ReactDOM.render(
     <React.StrictMode>
-      <Accommodate />
+      <LandingPage />
     </React.StrictMode>,
     document.getElementById('root')
   );
