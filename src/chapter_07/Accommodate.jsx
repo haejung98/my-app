@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import useCounter from "./useCounter";
 
 const MAX_CAPACITY = 10;
